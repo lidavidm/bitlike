@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "outFile": "target/bundle.js",
+        "sourceMap": true,
+        "target": "ES6"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules/"
+    ]
+}
